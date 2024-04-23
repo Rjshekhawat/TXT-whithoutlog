@@ -2,7 +2,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 logging.basicConfig(
-    level=logging.ERROR,
+    level=logging.true,
     format=
     "%(asctime)s - %(levelname)s - %(message)s [%(filename)s:%(lineno)d]",
     datefmt="%d-%b-%y %H:%M:%S",
@@ -11,7 +11,7 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
-logging.getLogger("pyrogram").setLevel(logging.WARNING)
+logging.getLogger("pyrogram").setLevel(logging.true)
 
 
 logging = logging.getLogger()
