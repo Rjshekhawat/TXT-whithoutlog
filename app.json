@@ -29,22 +29,17 @@
 
     "env": {
 
-        "BOT_TOKEN": {
-
-            "description": "Your Bot token from @Botfather"
-
-        },
-
-        "API_ID": {
-
-            "description": "Your API_ID from https://my.telegram.org/apps"
-
-        },
-
-        "API_HASH": {
-
-            "description": "Your API_HASH from https://my.telegram.org/apps"
-
+        API_ID": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": "21863630"
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": "fcaec0e8a1e8d2675122068f40b76817"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "value": "6353318279:AAFXfHO8_xdOSQ7l-0WecJRwog9fV1EegJI"
         }
 
     },
